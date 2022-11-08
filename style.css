@@ -1,0 +1,84 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(235, 164, 13);
+}
+
+header {
+    background-image: url(/Design\ sem\ nome\ \(5\).png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    min-height: 80px;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 30px;
+}
+#historia span {
+    font-size: 25px;
+    font-weight: bold;
+}
+#historia p {
+    margin-bottom: 50px;
+    column-count: 2;
+    font-size: 20px;
+    text-align: justify;
+    column-gap: 50px;
+}
+
+#video iframe {
+    width: 70vw;
+    height: 70vh;
+}
+.menu ul,
+.menu li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.container {
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.divisoria {
+    margin-top: 20px;
+    width: 100%;
+    background-color: brown;
+    height: 2px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+#ingredientes h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}   
+
+#ingredientes ul {
+    width: 500px;
+}
+#ingredientes li {
+    text-align: start;
+    font-size: 25px;
+    color: black;
+}
